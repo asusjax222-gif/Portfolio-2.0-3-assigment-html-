@@ -36,7 +36,7 @@ Import Google Fonts: In style.css, add an import statement at the top, e.g.:
 css
 
 
-@import url('https://fonts.googleapis.com/css2?family=Poppins:wght@400;700&display=swap');
+
 Build the HTML Structure: Create a basic HTML5 structure in index.html with sections like <header>, <nav>, <section> for About, Projects, Skills, Contact, etc. Include a <table> for skills, <button> elements, and an <hr> for separators.
 Apply Styling: Follow the detailed instructions below to style the webpage in style.css.
 Add Images: Place at least one image (e.g., profile photo) in the images/ folder and reference it in index.html with proper alt text.
@@ -78,4 +78,5 @@ Expected Output
 The final webpage should resemble a professional portfolio with a header, navigation, about section (with image), projects, skills table, contact form, and styled buttons. Navigation should work, the table should be readable, and sections should be visually separated. Test for functionality in a browser.
 
 Author:-
+
 Jayesh Shrivastava - Completed as part of Btech cse data science  Lab Assignment 3.
