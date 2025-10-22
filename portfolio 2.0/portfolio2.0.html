@@ -1,0 +1,121 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>My Personal Portfolio</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <header>
+        <nav id="navbar">
+            <ul>
+                <li><a href="#about">About</a></li>
+                <li><a href="#skills">Skills</a></li>
+                <li><a href="#projects">Projects</a></li>
+                <li><a href="#contact">Contact</a></li>
+            </ul>
+        </nav>
+        <h1>Welcome to My Portfolio</h1>
+    </header>
+
+    <section id="about">
+        <h2>___ABOUT ME___</h2>
+        <hr>
+        <img src="./image/6e084cbb5b557440c6d4b0023b47e278.jpg" alt="Profile photo of me" class="profile-img">
+        <hr>
+        <p>Hello! I'm Jayesh Shrivastava and a web developer passionate about creating clean, user-friendly websites. This portfolio (example) showcases my skills and projects. Note:- This portfoilio is made for college assigment doesnt refelect my real skill data or anything ...!!</p>
+    </section>
+
+    <hr class="separator">
+
+    <section id="skills">
+        <h2>Technical Skills</h2>
+        <table>
+            <thead>
+                <tr>
+                    <th>Skill</th>
+                    <th>Good</th>
+                    <th>Tools</th>
+                </tr>
+            </thead>
+            <tbody>
+                <tr>
+                    <td>HTML/CSS</td>
+                    <td>Expert</td>
+                    <td>VS Code, Browser DevTools</td>
+                </tr>
+                <tr>
+                    <td>JavaScript</td>
+                    <td>Beginner</td>
+                    <td>Node.js, React</td>
+                </tr>
+                <tr>
+                    <td>Python</td>
+                    <td>Beginner</td>
+                    <td>Jupyter, Flask</td>
+                </tr>
+            </tbody>
+        </table>
+    </section>
+
+    <hr class="separator">
+
+    <section id="projects">
+        <h2>Projects</h2>
+        <div class="project">
+            <h3>Portfolio Website</h3>
+            <p>A responsive personal anime page built with HTML and CSS.</p>
+            <a href="https://github.com/asusjax222-gif/SIDE-PROJECTS" class="button-link">Click Me</a>
+        </div>
+        <div class="project">
+            <h3>calculator</h3>
+            <p>A Python app that calculate daily calorie .</p>
+            <a href="https://github.com/asusjax222-gif/daily_calorie_tracker" class="button-link">Click Me</a>
+        </div>
+    </section>
+
+    <hr class="separator">
+
+    <section id="contact">
+        <h2>Contact Me</h2>
+        <form action="#" method="post">
+            <label for="name">Name:</label>
+            <input type="text" id="name" name="name" placeholder="Your Name" required>
+            
+            <label for="email">Email:</label>
+            <input type="email" id="email" name="email" placeholder="Your Email" required>
+            
+            <label for="message">Message:</label>
+            <textarea id="message" name="message" placeholder="Your Message" required></textarea>
+            
+            <button type="submit" class="btn">Send Message</button>
+        </form>
+    </section>
+
+    <footer>
+        <p>&copy; 2025 My Portfolio. All rights reserved.</p>
+        <p> Made by jayesh shrivastava</p>
+    </footer>
+
+ <button id="scrollUpBtn" onclick="scrollToTop()">↑ Scroll Up</button>
+    
+    <script>
+        let mybutton = document.getElementById("scrollUpBtn");
+        window.onscroll = function() {scrollFunction()};
+        function scrollFunction() {
+          if (document.body.scrollTop > 20 || document.documentElement.scrollTop > 20) {
+            mybutton.style.display = "block";
+          } else {
+            mybutton.style.display = "none";
+          }
+        }
+        function scrollToTop() {
+          document.body.scrollTop = 0;
+          document.documentElement.scrollTop = 0;
+        }
+    </script>
+</body>
+</html>
+
+   
