@@ -3,7 +3,7 @@
 
 - 🔭 I’m currently working on [Personal portfolio](https://github.com/asusjax222-gif/Portfolio-2.0-3-assigment-html-)
 
-<h3 align="left">Connect with me:</h3>
+<h3 align="left">Connect with me with github or social platform</h3>
 <p align="left">
 </p>
 
